@@ -12,6 +12,19 @@ background{
     background-size: contain;
 }
 
+.button{
+    --color: #BF848F;
+    display:inline-block;
+    cursor:pointer;
+    border: 3px solid var(themecolor);
+    color:rgb(186, 79, 239);
+    padding: .5em 1em;
+    border-radius: .25em;
+
+    position: relative;
+    isolation: isolate;
+}
+
 p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px
