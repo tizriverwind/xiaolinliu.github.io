@@ -102,18 +102,23 @@ body{
 
 .contact{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content:center;
 }
 
 .hobbies-text{
     font-size: 20px;
-    vertical-align:text-top;
-    width: 600px;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .sending-love{
-    width: 300px
+    width: 300px;
+    margin-left: 45px;
+    margin-right: 45px;
     
 }
 
