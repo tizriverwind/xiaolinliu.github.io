@@ -1,74 +1,112 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Xiaolin's Homepage</title>
-    <link rel="stylesheet" href="styles/my-homepage.css"
+    <link rel="stylesheet" href="styles/index.css"
      type="text/css">
+    <script src="scripts/index.js"></script>
   </head>
-  <body>
-    <header>
-      <h1>Welcome to my brain!</h1>
-        <h5 class="description">
-          Showcasing my collection of interwinded thoughts--a secure haven for self-expression
-        </h5>
-    </header>
-      
-    <nav>
-      <!-- navigation links can go here -->
-    </nav>
 
-    <section class="identities">
-      <h2>About Me</h2>
-      <img class="profilepic" src="images/profile-pic-cartoon.png" alt="cartoon profile pic"/>
-        <h3>Former auditor &#183; Current NEU Align Student &#183; Fulltime cat mom</h3>
-          <h4>Courses taken</h4>
-            <h5>
-              cs5001<div></div>
-              cs5002<div></div>
-              cs5004 Intro to Java<div></div>
-              cs5008 what<div></div>
-            </h5>
+  <body>
+    <button onclick="homenumRevelio()">A small button</button>
+  
+
+    <div id="magicalbutton">
+  
+      <h1>Welcome to my brain!</h1>
+        <p class="description">
+          Showcasing my collection of interwinded thoughts--a secure haven for self-expression
+        </p>
+        
+      <div class="profile">
+        <h2>This is Me</h2>
+        <div class="profile-pic">
+          <img class="profile-pic" src="images/profile-pic-cartoon.png" alt="cartoon profile pic"/>
+        </div>
           
-          <h4>Work in progress</h4>
-            <h5>
-              cs5800 Algorithms<div></div>
-              cs5610 Web development<div></div>
-            </h5>
-        <h3>Cat Mom</h3>
-        <img class="cat-profile-pics" src="images/IMG_5384.JPG" alt="cat1-mimi1" />
-        <img class="cat-profile-pics" src="images/IMG_6034.JPG" alt="cat1-mimi2" />
-        <img class="cat-profile-pics" src="images/dong1.jpg" alt="cat2-dong1" />
-        <img class="cat-pics" src="images/dong-and-mi.jpg" alt="cats-together" />
-          <h5>
-            <p>
+      <div class="identities">
+          <ul>
+            <li>
+              Former public accountant
+            </li>
+            <li>
+              Current NEU Align Student
+            </li>
+            <li>
+              Fulltime cat mom🐾🐾
+            </li>   
+          </div>
+      </div>
+      
+      <div class="courses">
+          <h4>NEU(Go Huskies!) Align Progress</h4>
+          <p class="course-list">
+            <ul>
+              <li>
+                cs5001 Intensive foundation of CS (Python!)
+              </li>
+              <li>
+                cs5002 Discrete Math (UGH MATH)
+              </li>
+              <li>
+                cs5004 Object-Oriented Design (Java!)
+              </li>
+              <li>
+                cs5008 Data Structure, Algorithm & Application in Computer Systems (c!)
+              </li> 
+              <li>
+                cs5800 Algorithm (ongoing, we'll see how it goes)
+              </li>
+              <li>
+                cs5610 Web Development (ongoing, the reason why you can see this webpage)
+              </li>
+          </p>
+      </div>
+        
+      <h3>Cat Mom</h3>
+      <div class="cat-mom">
+        <div>
+          <img class="cat1-profile-pics" src="images/IMG_5384.JPG" alt="cat1-mimi1" />
+        </div>
+        <div>
+          <img class="cat2-profile-pics" src="images/dong1.jpg" alt="cat2-dong1" />
+        </div>
+      </div>
+        
+          <div class="cat-des">
+            <p class="cat-text">
               In 2018, I decided to bring a little extra "Mimi" magic into my life by adopting him from a shelter in Pennsylvania.
               This tuxedo gentleman is the real head of household even though I pay for all the bills.
               Then in 2019, along came Bran, a typical organge cat who's never got his turn of using the one brain cell which is commonly known to be shared among all orange cats, 
-              completing my dynamic duo of "very good bois." We've been attached at the hip ever since, much like Velcro but with much more fur you'd ever expected. 
+              completing my dynamic duo of <strong>"very good bois"</strong>. We've been attached at the hip ever since, much like Velcro but with much more fur you'd ever expected. 
               Together, we embarked on the grand adventure of moving from Pennsylvania to the golden land of California, 
-              where Bran's adventures in beachcombing began (just kidding, he's def more of an indoor explorer). 
-              Oh, and yes, you heard it right—I'm in the process of crafting an entire webpage dedicated to a glamorous collection of cat pics. 
+              where Bran's adventures in beachcombing began (just kidding, he's def more of an indoor explorer and does NOT have the brain cell to survive outside). 
+              Oh, and yes, you heard it right—I'm in the process of crafting an entire webpage dedicated to a glamorous collection of cat pics (well who wouldn't want to see that?!?!). 
               Each feline model will have their very own dazzling bio because, 
               let's face it, these furballs are basically celebrities in disguise. 
               Stay tuned for the purr-fect profiles, coming soon to a browser near ya!
-              🐾😺
+              🐾🐾😺😺
             </p>
-          </h5>
+          
+          <div class="cat-pics">
+            <img class="cat-pics" src="images/dong-and-mi.jpg" alt="cats-together" />
+          </div>
+        </div>
+        
         <h3>Classical Music Enthusiast</h3>
-        <h3>Ravenclaw</h3>
-          <h4>Need I say more?</h4>
+        
         <h3>Home-cooking Connaisseuse</h3>
             <h5>
               In the process of building my recipe libraries. Will showcase the project later!
             </h5>
 
 
-      <section class="hobbies">
+      <div class="hobbies">
         <h2>Quirks and Obsessions</h2>
-          <h5>
-            <p>
+            <div class="hobbies-text">
+              <p>
               You see, we all need a little escape from reality, right? While some folks unwind by counting sheep, I prefer to dive headfirst into the whimsical worlds of art and music, because, well, who needs sleep anyway?
               As one of my many "About Me" identities will tell you, I'm a bona fide classical music aficionado who tinkled the ivories on the piano in my youth. 
               My most prized non-living possession, apart from my health insurance, is a Kawaii digital piano that I splurged on as a self-congratulatory gift for quitting my last job. It's like my personal confetti cannon of achievement!
@@ -77,39 +115,42 @@
               (though I'm more of a "climb when my bossy friends insist" type), and tearing up the dance floor as the salsa sensation that I am (not exactly, I'm still learning). 
               Oh, and did I mention I'm a former a cappella maestro from my college days? I guess you could say I'm a one-person circus with a side of musical mayhem! 🎹🥊🧗‍♂️🕺🩰🎶
             </p>
+            </div>
+              
           </h5>
-            <h5>
-              Here's my practice videos:
+            <p>
+              Here's my practice channel:
               <a href="https://www.youtube.com/channel/UCscfaaa-wXugICkRY1_tMDw" target="_blank">
                 Link to my practice channel
               </a>
-            </h5>
+            <p>
+      </div>
 
-        <section>
-          <h3>Find Me elsewhere</h3>
-          <h4>
+      <h4>Find me elsewhere</h4>
+      <div class="contact">
+
+      </div>
+  
+        <div class="socialmedia">
+          <p>
             My instagram handle:
             <a href="https://www.instagram.com/bluebookbells/" target="_blank">
-              Link to my ins page
+              Insta
             </a>
-          </h4>
-        </section>
+          </p>
+        </div>
+          
+        <div class="identities">
+          <p>Good luck and much money</p>
+          <img class="sending-love" src="images/喵喵cult.jpg" alt="Good luck and much money to yall" />
+        </div>
+
+      
+      <footer class="footer">
+        <p>Copyright © Xiaolin Liu 2023 Powered by many cups of coffee</p>
+      </footer>
+    </div>
+
     
-
-
-
-
-
-    <img class="sending-love" src="images/喵喵cult.jpg" alt="Good luck and much money to yall" />
-    <button>SUBSCRIBE</button>
-    <div></div>
-
-    <a href="https://www.youtube.com/" target="_blank">
-      Link to Youtube
-    </a>
-
-    <footer class="footer">
-      <p>Copyright © Xiaolin Liu 2023 Powered by many cups of coffee</p>
-    </footer>
   </body>
 </html>
