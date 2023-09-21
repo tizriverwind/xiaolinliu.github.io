@@ -1,6 +1,8 @@
 #magicalbutton{
     display: none;
 }
+/*I really like your magical button! Here you use something I didn't know and I'm happy to learn from your code.
+In the css file you use # before the button, what is the functionality of #? Is the "display: none;" here relate to your js function?*/
 
 body{
     margin: 10px;
