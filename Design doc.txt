@@ -1,0 +1,89 @@
+
+Design Document for Xiaolin's Personal Website
+
+1. Overview:
+
+Objective: To create a personal website that showcases Xiaolin's academic accomplishments in Computer Science, personal interests, CS projects, experiences, and thoughts, catering especially to potential employers and peers.
+
+2. Target Audience (User personas):
+
+   a. Potential employers interested in matching my skills with their hiring needs;
+   b. Academic peers interested in checking out my progress in computer science and following my journey in CS;
+   c. Friends and families who want to keep up with my life and reflections;
+   d. People who shares common interets/hobbies looking to share inspirations and interests.
+
+
+3. Design Aesthetics:
+
+Color Palette: Neutral colors like shades of blue, gray, white, with bright accents.
+Layout: Structured and organized, reflecting the logic of a computer scientist, but with creative flairs showcasing personality.
+
+
+4. Features & Content:
+   a. Home:
+      - Overview
+      - Milestone and timeline: life experiences
+      - Brief introduction with links to other pages
+
+   b. About Me:
+      - Academic background: how I got here
+      - Personal interests outside of CS, for showcasing a well-rounded personality.
+      - Cats
+
+   c. CS Projects:
+      - Showcase of CS projects completed in class and outside academic field.
+      - Brief description of each project, the technologies used, and its relevance or impact.
+      - Links to GitHub where the project details can be viewed.
+
+   d. Experiences & Thoughts (Blog):
+      - Links to personal blog posts
+      - Reflections
+      - Categories and tags for easy navigation (e.g., "Machine Learning", "Personal Reflections", "Conferences").
+
+   e. Contact:
+      - Contact form for visitors to send messages or inquiries.
+      - Social media icons and links.
+      - Email address.
+
+
+5. Design Mockups:
+
+   a. Homepage Mockup:
+      - Header: name prominently displayed, with a tagline or short statement like "Master's Candidate in Computer Science at Northeastern Univeristy".
+      - Navigation: Links to "About Me", "CS Projects", "Experiences & Thoughts", and "Contact".
+      - Main Content: A professional photo of you, with a brief introductory paragraph. Below, three highlighted sections: a featured CS project with an image, a snippet from your latest blog post or experience, and a personal interest or hobby visual.
+      - Footer: Small links to LinkedIn and GitHub.
+
+   b. About Me Mockup:
+      - Header: "About Me".
+      - Main Content: A detailed biography divided into subsections "Before CS", "Academic Background" and "Outside CS"
+      Use visuals where possible, like university logos or relevant icons.
+      - Sidebar: A list or timeline of academic achievements, like publications, conferences attended, or awards won.
+
+   c. CS Projects Mockup:
+      - Header: "Computer Science Projects".
+      - Main Content: Grid layout of projects. Each project should have a representative image, title, brief description, and a link to the GitHub repo. Consider the layout and design in cs5610 "Student Submissions".
+      - Sidebar: Filter or categorize options for projects, such as "Python", "Java", "Web Development".
+
+   d. Experiences & Reflections (Blog) Mockup:
+      - Header: "Experiences & Reflections".
+      - Main Content: A list of blog posts or articles with possibly a featured image, title, snippet of content, and "Read More" link. Each post might also have a date and category tag.
+      - Sidebar: "Popular Posts", "Recent Posts", and "Categories" sections to help navigate.
+
+   e. Contact Mockup:
+      - Header: "Get in Touch".
+      - Main Content: A contact form with fields like "Name", "Email", "Subject", and "Message". 
+
+
+6. User Stories
+   a. Tech Recruiter Alex:
+      Alex is a tech recruiter for a leading software company. They're in search of fresh talents who have a mix of academic insight and practical experience. Alex stumbles upon my website from my LinkedIn profile. They navigate to the "CS Projects" section, browses through a couple of my highlighted projects, and is impressed by the blend of academic and practical applications. Wanting to reach out for a potential job interview, Alex heads to the "Contact" page and drops a message.
+
+   b. Fellow Master's Student Raj:
+      Raj is working on a research project and is looking for some insights on a particular topic in Computer Science that he knows I've tackled before. He visits my website, goes to the "Experiences & Thoughts" section, and finds a blog post that touches on the exact problem he's facing. After reading and finding it immensely helpful, he decides to share the post with his project group.
+
+   c. Culinary Enthusiast, Jake:
+      Jake shares a non-academic hobby of cooking. He discovers my website from a culinary forum where I shared some of my recipes. Curious about the person behind the lens, he visits my site and heads straight to the "About Me" section, learning about my personal interests. He finds it fascinating how I balance academic rigor with personal passions and leaves an appreciative comment on one of my blog posts.
+
+   d. Good friend Sarah:
+      Sarah and I are good friends. One evening, I mentioned a new project I've been working on. Curious, she decided to check out my personal website. She began on the "About Me" page, reading about my recent interests and reminiscing about old times. She then explored the "CS Projects" section. Even though some technical terms were unfamiliar to her, my descriptions made the projects' significance clear. Finally, she navigated to the "Experiences & Thoughts" blog section, catching up on my latest challenges and achievements. By the time she finished browsing, she felt more connected to my journey and immediately sent me a playful text, teasing about a fun fact she read and commending my recent project.
